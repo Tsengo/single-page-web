@@ -1,16 +1,18 @@
 let slide = tns({
     container: '.slider',
-    "slideby" : 'page',
+    "slideby" : '1',
     'nav': false,
     controlsContainer : "#controls",
     'items': 2,
     'center':true,
     'startIndex':2,
     "responsive": {
-        "800": {
+        "2000": {
           "items": 1,
           "controls": true,
           "edgePadding": 30,
         },
     }
 })
+
+
