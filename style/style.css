@@ -236,8 +236,13 @@ main{
 .slider{
     width: 100%;
     height: 360px;
-    gap: 30px;
     overflow: hidden;
+}
+.slider img{
+    padding: 0px 21px;
+}
+.tns-liveregion{
+    display: none;
 }
 .buttons{
     width: 144px;
